@@ -1,4 +1,6 @@
 FROM pagespeed/nginx-pagespeed
+# use image below instead if you need power of Lua in your Nginx
+# FROM romanmelnyk/ngxpagespeed-lua
 
 # Install curl
 RUN apk add --no-cache curl
