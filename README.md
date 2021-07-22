@@ -32,3 +32,8 @@ Let's say for some "obscure" reason you actually want to block GoogleBot from ac
 
 All include files are commented for your convenience.
 
+### Dockerize
+Once all customization is done, docker image needs to be created.
+Create `makefile.env` file based on `makefile.env.example`, 
+set needed variables and run `make build push`.
+That's it, now created image can be used according your needs.
